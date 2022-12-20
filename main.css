@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(241, 241, 241);
+    color: rgb(41, 49, 59);
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin: 0;
+}
+nav{
+    background-color: rgb(41, 49, 59);
+    color: rgb(241, 241, 241);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -72.5px;
+
+}
+button{
+    background-color: rgb(41, 49, 59);
+    color: rgb(241, 241, 241);
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    margin-top: 5px;
+    border: 0px;
+    border-radius: 10px;
+    transition: .2s;
+    margin-right: 5px;
+}
+
+input[type=submit]{
+    background-color: rgb(41, 49, 59);
+    color: rgb(241, 241, 241);
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    margin-top: 5px;
+    border: 0px;
+    border-radius: 10px;
+    transition: .2s;
+    margin-right: 5px; 
+}
+
+button:hover{
+    background-color: rgb(60, 177, 255);
+    color: rgb(41, 49, 59);
+}
+
+header{
+    background-image: url(land.jpg);
+    background-position: center;
+    filter: saturate(145%);
+    filter: brightness(130%);
+    background-size: cover;
+    color: rgb(241, 241, 241);
+    font-size: 50px;
+    -webkit-text-stroke: rgb(41, 49, 59) 1px;
+    height: 170px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+footer{
+    background-color: rgb(41, 49, 59);
+    color: rgb(241, 241, 241);
+    min-height: 90px;padding: 5px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+article{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#start{
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+#turtle{
+    border-radius: 20px;
+    margin-top: 50px;
+    filter: saturate(120%);
+    filter: contrast(120%);
+}
+#first{
+display: none;
+}
+
+#second{
+display: none;
+}
+
+#third{
+    display: none;
+}
+
+#fourth{
+    display: none;  
+}
+
+#next{
+    display: none;
+    margin-left: 1.5%;
+}
+
+#back{
+    display: none;
+    margin-left: 1.5%;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>J Query</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#progressbar" ).progressbar({
+        value: 0
+      });
+
+    } );
+    </script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+  <img src="Logo.png" height="67.5" width="90px">
+    <nav>
+    <button>Home</button>
+    <button>Volunteer</button>
+    <button>Donate</button>
+    <button>FAQ</button>
+    </nav>
+
+    <header>
+        Volunteer
+    </header>
+    <div id="progressbar"></div>
+    <article>
+      <div id="ask">
+      Become One of our Volunteers.
+      </div>
+      <div id="form"><button id="start" onclick="start()">Sign Up</button></div>
+
+      <div id="first">
+        <p>First Name <input type="text"></p>
+        <p>Last Name <input type="text"></p>
+      </div>
+      <div id="second">
+        <p>Email <input type="email"></p>
+        <p>Phone Number <input type="number"></p>
+      </div>
+      <div id="third">
+        <p>Volunteer Date: <input type="text" id="datepicker"></p>
+      </div>
+
+      <div id="fourth">
+        <input type="submit">
+      </div>
+
+      <button id="next" onclick="next()">Next</button>
+      <button id="back" onclick="back()">Back</button>
+      <div id="text">Our volunteers help make the environment safer. <br><br>  For our children.</div>
+      <div>
+        <img id="turtle" src="SeaTurtle.jpg" height="400" width="575">
+      </div>
+
+    </article>
+
+
+
+    <!--
+    <article>
+      <br>
+      <p>Email <input type="email"></p>
+      <p>Phone Number <input type="number"></p>
+      <p>First Name <input type="text"></p>
+      <p>Last Name <input type="text"></p>
+      <p>Date: <input type="text" id="datepicker"></p>
+      <br><br>
+    </article>
+  -->
+    <footer>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil mollitia beatae dolores sapiente. Magnam error ut optio. Officiis doloribus quod dolore accusamus doloremque sunt pariatur explicabo eum, laboriosam exercitationem saepe! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, itaque pariatur culpa, repudiandae doloremque quo, fuga dignissimos eum fugit nisi totam commodi facilis enim expedita magnam labore animi! Odit, sequi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, voluptatum animi! Perferendis nam ullam deserunt, architecto quae dolores animi sit. Facere et rerum dolor.
+    </footer>
+</body>
+</html>
